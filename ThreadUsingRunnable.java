@@ -3,7 +3,7 @@ class NewThread implements Runnable{
 
 	@Override
 	public void run() {
-		System.out.println("Hello All : "+ Thread.currentThread().getName());
+		System.out.println("Hello India : "+ Thread.currentThread().getName());
 	}
 	
 }
