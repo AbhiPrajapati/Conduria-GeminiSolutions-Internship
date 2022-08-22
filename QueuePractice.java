@@ -1,10 +1,11 @@
 import java.util.Iterator;
 import java.util.PriorityQueue;
+import java.util.Queue;
 
 public class QueuePractice {
    public static void main(String[] args) {
 	   int sum = 0;
-	   PriorityQueue<Integer> queue = new PriorityQueue<>();
+	   Queue<Integer> queue = new PriorityQueue<>();  //Making an Object of PriorityQueue
 		queue.add(10);
 		queue.add(20);
 		queue.add(30);
